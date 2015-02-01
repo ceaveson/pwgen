@@ -23,7 +23,7 @@ elif argv[1] == 'high' or argv[1] == 'h':
     print password
 else:
     print """
-    SYNTAX: pwgen ARG     EXAMPLE: pwgen low 
+    SYNTAX: pwgen ARG     EXAMPLES: pwgen low, pwgen l 
     
     COMMANDS:
     
