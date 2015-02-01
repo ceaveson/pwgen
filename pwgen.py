@@ -32,5 +32,3 @@ else:
     "high or "h"    =   16 character upper and lower case, alphanumeric and special characters
     
     """
-
-    print password
