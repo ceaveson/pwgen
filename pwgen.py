@@ -1,3 +1,5 @@
+#! /usr/bin/python
+
 from sys import argv
 from random import choice
 
@@ -20,6 +22,15 @@ elif argv[1] == 'high' or argv[1] == 'h':
         password += choice(high[0])
     print password
 else:
-    print "please type either 'low', 'medium', 'high' after the initial command"
+    print """
+    SYNTAX: pwgen ARG     EXAMPLE: pwgen low 
+    
+    COMMANDS:
+    
+    "low" or "l"    =   8 character lower case and alphanumeric password
+    "medium or "m"  =   8 character upper and lower case, alphanumeric and special characters
+    "high or "h"    =   16 character upper and lower case, alphanumeric and special characters
+    
+    """
 
     print password
