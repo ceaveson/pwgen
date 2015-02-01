@@ -25,7 +25,7 @@ else:
     print """
     SYNTAX: pwgen ARG     EXAMPLES: pwgen low, pwgen l 
     
-    COMMANDS:
+    ARGUMENTS:
     
     "low" or "l"    =   8 character lower case and alphanumeric password
     "medium or "m"  =   8 character upper and lower case, alphanumeric and special characters
