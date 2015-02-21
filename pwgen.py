@@ -28,7 +28,7 @@ else:
     ARGUMENTS:
     
     "low" or "l"    =   8 character lower case and alphanumeric password
-    "medium or "m"  =   8 character upper and lower case, alphanumeric and special characters
-    "high or "h"    =   16 character upper and lower case, alphanumeric and special characters
+    "medium" or "m"  =   8 character upper and lower case, alphanumeric and special characters
+    "high" or "h"    =   16 character upper and lower case, alphanumeric and special characters
     
     """
